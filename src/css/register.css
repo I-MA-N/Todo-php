@@ -1,0 +1,26 @@
+@import url("./general/base.css");
+@import url("./general/variables.css");
+@import url("./general/modal.css");
+@import url("./general/circle.css");
+@import url("./general/form.css");
+
+.validation-container {
+    margin-bottom: 20px;
+}
+
+.validation-container ul {
+    font-size: 15px;
+    list-style: none;
+}
+
+.validation-container li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.validation-container svg {
+    width: 24px;
+    color: var(--third-color);
+}

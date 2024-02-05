@@ -1,0 +1,59 @@
+table {
+    margin: auto;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    border-spacing: 12px;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+
+th, td {
+    border-radius: 6px;
+    padding: 12px 18px;
+}
+
+tbody tr {
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--primary-color);
+    opacity: 0.8;
+    color: var(--secondary-color);
+}
+
+tbody button {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 8px;
+    border: 0;
+    border-radius: 8px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 200ms;
+}
+tbody button:hover {
+    color: var(--primary-color);
+    background-color: transparent;
+}
+
+tbody tr:nth-child(even) button {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+tbody tr:nth-child(even) button:hover {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+tbody button svg {
+    width: 18px;
+}

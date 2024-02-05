@@ -1,0 +1,17 @@
+/* Error section */
+body {
+    overflow-x: hidden;
+}
+
+.error {
+    text-align: center;
+}
+
+.error h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.error h2 {
+    font-size: 36px;
+}

@@ -1,0 +1,59 @@
+@import url("./general/base.css");
+@import url("./general/variables.css");
+@import url("./general/modal.css");
+@import url("./general/form.css");
+@import url("./general/circle.css");
+@import url("./general/404.css");
+
+.title {
+    margin-bottom: 60px;
+}
+
+input {
+    direction: rtl !important;
+}
+
+#subject {
+    margin-bottom: 25px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+.cancel-btn {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: 0;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    color: var(--secondary-color);
+    background-color: #B80000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 200ms;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.cancel-btn:hover {
+    background-color: transparent;
+    color: #B80000;
+}
+
+.cancel-btn svg {
+    width: 26px;
+    transition: all 400ms;
+}
+.cancel-btn:hover svg {
+    margin-right: -4px;
+}

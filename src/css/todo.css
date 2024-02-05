@@ -1,0 +1,71 @@
+@import url("./general/base.css");
+@import url("./general/variables.css");
+@import url("./general/modal.css");
+@import url("./general/circle.css");
+@import url("./general/404.css");
+@import url("./general/todoTable.css");
+
+body {
+    overflow: hidden;
+    text-align: center;
+}
+
+.newTodoBtn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 25px auto;
+    margin-bottom: 50px;
+    padding: 10px 35px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms;
+}
+.newTodoBtn:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.newTodoBtn svg {
+    width: 28px;
+    transition: all 400ms;
+}
+.newTodoBtn:hover svg {
+    transform: scale(1.2);
+}
+
+.leaveBtn {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: 0;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    color: var(--secondary-color);
+    background-color: #B80000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 200ms;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.leaveBtn:hover {
+    background-color: transparent;
+    color: #B80000;
+}
+
+.leaveBtn svg {
+    width: 30px;
+    transition: all 400ms;
+}
+.leaveBtn:hover svg {
+    margin-right: -4px;
+}

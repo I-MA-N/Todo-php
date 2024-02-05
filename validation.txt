@@ -1,0 +1,17 @@
+username:
+1 at least 4 chars
+2 doesn't have any white spaces
+
+password:
+1 at least 8 chars
+2 contians at least 1 number
+3 contains at least 1 uppercase letter
+
+fullname:
+1 at least 6 chars
+
+tasks:
+1 fix adding repeated todos
+2 send data to form when click on edit btn
+3 set delete function for todos
+4 show modals on errors & stuff
